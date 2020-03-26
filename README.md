@@ -1,11 +1,12 @@
 # Brute_Zipfile
-# How To Instal
+<br>
+<h2>How To Instal</h2>
 
 # Linux
 pip3 install tqdm
 
 # Termux
-apt install python
+<p>apt install python</p>
 pip install tqdm
 
 
