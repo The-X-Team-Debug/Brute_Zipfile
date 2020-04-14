@@ -1,14 +1,13 @@
 import zipfile
+import subprocess
 from tqdm import tqdm
 
-# Tarus sekumpulan file yg sudah diisi
-# dengan password ber ektensi txt
-sora = "worldlist.txt"
-# Disini adalah file yg ingin di brute
-# ingat taruh file nya di folder ini
-# ganti nilai shiro dengan file yg akan
-# di brute
-shiro = "file yg ingin di brute.zip"
+subprocess.call('figlet Brute_ZipFile',shell=True)
+print('Aut = The X Kuhaku')
+print('Yt = Kuhaku Termux')
+
+sora=input"worldlist.txt"
+shiro=input"file yg ingin di brute.zip"
 
 shiro = zipfile.ZipFile(shiro)
 kuhaku = len(list(open(sora, 'rb')))
