@@ -5,12 +5,12 @@ from tqdm import tqdm
 subprocess.call('figlet Brute_ZipFile',shell=True)
 print('Aut = The X Kuhaku')
 print('Yt = Kuhaku Termux')
-
+prin('\n')
 sora=input"worldlist.txt"
 shiro=input"file yg ingin di brute.zip"
 
 shiro = zipfile.ZipFile(shiro)
-kuhaku = len(list(open(sora, 'rb')))
+kuhaku = len(list(open(sora, 'r')))
 print("Total pw yg di coba:", kuhaku)
 
 with open(sora, 'rb') as sora:
